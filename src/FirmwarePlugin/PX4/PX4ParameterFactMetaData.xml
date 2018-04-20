@@ -9471,7 +9471,7 @@ to accelerate forward if necessary</short_desc>
     </parameter>
     <parameter default="0.0" name="VT_FW_ALT_ERR" type="FLOAT">
       <short_desc>Adaptive QuadChute</short_desc>
-      <long_desc>Maximum negative altitude error, when in fixed wing the altitude drops below this copared to the altitude setpoint the vehicle will transition back to MC mode and enter failsafe RTL</long_desc>
+      <long_desc>Maximum negative altitude error for fixed wing flight. If the altitude drops below this value below the altitude setpoint the vehicle will transition back to MC mode and enter failsafe RTL.</long_desc>
       <min>0.0</min>
       <max>200.0</max>
       <scope>modules/vtol_att_control</scope>
